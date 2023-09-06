@@ -31,7 +31,7 @@ body {
     margin-bottom: 20px;
 }
 
-.buttons-style, .cal-nums{
+.button-style {
    height: 70px;
    width: 70px;
    background-color: darkgray;
@@ -40,13 +40,14 @@ body {
    font-size: 20px;
 }
 
-.buttons-style:hover, .cal-nums:hover {
+.button-style:hover {
     background-color: rgb(153, 152, 152)
 }
 
-.buttons-style:active, .cal-nums:active {
+.button-style:active {
     background-color: rgb(119, 119, 119);
 }
+
 
 .delete-btn {
     display: flex;
