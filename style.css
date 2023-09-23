@@ -9,6 +9,7 @@ body {
     align-items: center;
 }
 
+
 #cal-container {
     background-color: rgb(24, 47, 148);
     height: 600px;
@@ -18,7 +19,9 @@ body {
     align-items: center;
     border-radius: 5%;
     border-style: solid;
+    border-width: 8px;
 }
+
 
 #buttons-container {
     display: flex;
@@ -31,6 +34,7 @@ body {
     margin-bottom: 20px;
 }
 
+
 .button-style {
    height: 70px;
    width: 70px;
@@ -40,11 +44,14 @@ body {
    font-size: 20px;
 }
 
+
 .button-style:hover {
     background-color: rgb(153, 152, 152)
 }
 
-.button-style:active {
+
+.button-style:active, .focus {
+    transform: translateY(1px);
     background-color: rgb(119, 119, 119);
 }
 
@@ -55,6 +62,7 @@ body {
     margin-left: 170px;
 }
 
+
 #screen {
     display: flex;
     background-color: grey;
@@ -64,7 +72,9 @@ body {
     margin-bottom: 10px;
     border-radius: 5%;
     border-style: solid;
+    overflow: hidden;
 }
+
 
 #num {
     display: flex;
